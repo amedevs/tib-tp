@@ -1,0 +1,4 @@
+Implementé el inciso 3a de la guía 7.
+> Para eso, modifiqué el catch del studentsController.js. Hice que salte un alert con un texto elegido in situ e ipso facto. Esto funciona porque el nombre es el único atributo y es lo único que puede fallar al hacer un create.
+> Me habría ENCANTADO que PHP reconozca cuál es el error, lo pase como mensaje a JS (en un json_encode) y JS lo muestre en el alert, pero no veo que sea posible.
+> También me habría encantado que el res del apiFactory.js tenga incorporado un atributo llamado, por decir, "message" y diga qué funcionó mal, pero no veo que lo tenga.
