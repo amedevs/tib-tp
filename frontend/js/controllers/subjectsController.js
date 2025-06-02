@@ -46,7 +46,7 @@ function setupSubjectFormHandler()
         }
         catch (err)
         {
-            console.error(err.message);
+            alert("Ya existe una materia con ese nombre");
         }
   });
 }
